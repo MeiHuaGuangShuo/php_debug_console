@@ -55,7 +55,7 @@ class Logger {
         }
         $log_data = [
             "file" => $file_name,
-            "function" => debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS, 3)[2]['function'],  // Unsolved problem: The second function name is not correct
+            "function" => "Unsupported",
             "line_no" => $line_no,
             "message" => base64_encode($message),
             "level" => $level,
